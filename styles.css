@@ -1,0 +1,204 @@
+
+/* Presentación */
+#fondo-bienvenida {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilos de card presentación */
+.card-general {
+    background-color: transparent;
+    border: none;
+    padding: 1em;
+    margin: 0;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.contenedor-texto .btn {
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.632);
+}
+
+/* Estilos de card productos */
+
+h1 {
+    background-color: #51504E;
+    color: #FFFFFF;
+}
+
+.fondoCardProductos {
+    background-color: black;
+    color: #ffffff;
+}
+
+.fondoCardProductos h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #DEA873;
+}
+
+.fondoCardProductos p {
+    font-size: 1.3rem;
+}
+
+.colorTituloCard {
+    color: #DEA873;
+}
+
+.bordeBotonCardProductos {
+    border: #DEA873 3px solid;
+    color: #DEA873;
+}
+
+.cardsProductos {
+    transform: translateY(5%);
+}
+
+.fondoCardProductosAlfajor {
+    color: #FFFFFF;
+}
+
+.fondoCardProductosAlfajor h5 {
+    color: #4B4129;
+}
+
+.colorTituloCardAlfajor {
+    color: #4B4129;
+}
+
+.bordeBotonCardProductosAlfajor {
+    border: #4B4129 3px solid;
+    color: #4B4129;
+}
+
+.cardProductosAlfajor {
+    transform: translateY(35%);
+}
+
+/* Estilos Iconos ingredientes*/
+.iconosIngredientes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #3E3E3D;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+}
+
+h3 {
+    background-color: #3E3E3D;
+    color: #FFFFFF;
+}
+
+.inputBackground {
+    background-color: #4B4129 !important;
+    color: #FFFFFF;
+}
+
+.recetas {
+    background-color: #2F2F2E;
+}
+
+.cardsRecetas {
+    background-color: #2F2F2E;
+}
+
+.backgroundRecetas {
+    background-color: #2F2F2E;
+}
+
+.cardBackgroundRecetas {
+    background-color: #DEA873;
+    text-align: center;
+}
+
+.cardBackgroundRecetas p {
+    color: #FFFFFF;
+}
+
+/* Medias query */
+
+@media screen and (min-width: 480px ) and (max-width:940px) {
+    
+    .card-general {
+        color: black;
+    }
+
+    .iconosIngredientes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 941px ) and (max-width:1200px) {
+  
+    #fondo-bienvenida {
+        height: 100%;    
+    }  
+
+    #contenedor-bienvenida {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    } 
+
+    .contenedor-texto {
+    margin: 8rem;
+    width:25rem;
+    }
+
+    h5 {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    .iconosIngredientes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1201px ) {
+   
+    #contenedor-bienvenida {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+
+    .contenedor-texto {
+        margin: 8rem;
+        width: 25rem;
+    }
+
+    h5 {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    
+
+}
